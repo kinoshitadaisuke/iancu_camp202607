@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #
-# Time-stamp: <2026/07/15 16:09:50 (UT+08:00) daisuke>
+# Time-stamp: <2026/07/15 17:42:59 (UT+08:00) daisuke>
 #
 
 # main function
@@ -29,7 +29,8 @@ def main ():
             # calculation of distance in Mpc
             d_Mpc = 10**(modbest / 5.0 - 5.0)
             # printing values
-            print (f'{objname:32s}  {objtype:4s}  {d_Mpc:8.3f}  {v:15.3f}')
+            if (modbest < 30.0):
+                print (f'{objname:32s}  {objtype:4s}  {d_Mpc:8.3f}  {v:15.3f}')
         
 
 # executing main function
