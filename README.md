@@ -10,4 +10,5 @@ The activity web page can be found at the following address.
 
 Here are Jupyter Notebook files.
 
- - https://colab.research.google.com/drive/1cWwLkX1mIixKT3Ko7gbFr-Fbub6GM8uu?usp=sharing
+ - Jupyter Notebook file for the session "Introductory Python Programming 02"
+   - https://colab.research.google.com/drive/1cWwLkX1mIixKT3Ko7gbFr-Fbub6GM8uu?usp=sharing
