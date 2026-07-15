@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #
-# Time-stamp: <2026/07/15 16:23:42 (UT+08:00) daisuke>
+# Time-stamp: <2026/07/15 17:43:17 (UT+08:00) daisuke>
 #
 
 # main function
@@ -41,7 +41,8 @@ def main ():
             list_d.append (d_Mpc)
             list_v.append (v)
             # printing values
-            print (f'{objname:32s}  {objtype:4s}  {d_Mpc:8.3f}  {v:15.3f}')
+            if (modbest < 30.0):
+                print (f'{objname:32s}  {objtype:4s}  {d_Mpc:8.3f}  {v:15.3f}')
     # opening file for writing
     with open (file_output, 'w') as fh_out:
         for i in range (len (list_objname)):
