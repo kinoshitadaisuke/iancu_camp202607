@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #
-# Time-stamp: <2026/07/15 16:10:16 (UT+08:00) daisuke>
+# Time-stamp: <2026/07/15 17:42:45 (UT+08:00) daisuke>
 #
 
 # main function
@@ -27,7 +27,8 @@ def main ():
             modbest     = float (modbest_str)
             modbest_err = float (modbest_err_str)
             # printing values
-            print (f'{objname:32s}  {objtype:4s}  {modbest:8.3f}  {v:15.3f}')
+            if (modbest < 30.0):
+                print (f'{objname:32s}  {objtype:4s}  {modbest:8.3f}  {v:15.3f}')
         
 
 # executing main function
