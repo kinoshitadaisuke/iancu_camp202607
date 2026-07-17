@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #
-# Time-stamp: <2026/07/17 08:51:41 (UT+08:00) daisuke>
+# Time-stamp: <2026/07/17 10:34:18 (UT+08:00) daisuke>
 #
 
 # importing pathlib module
@@ -52,8 +52,8 @@ def main ():
             ax.set_ylabel ('Y')
 
             # axes
-            ax.set_xlim (-150000.0, +150000.0)
-            ax.set_ylim (-150000.0, +150000.0)
+            ax.set_xlim (-200000.0, +200000.0)
+            ax.set_ylim (-200000.0, +200000.0)
             ax.set_aspect ('equal')
             ax.grid ()
 
